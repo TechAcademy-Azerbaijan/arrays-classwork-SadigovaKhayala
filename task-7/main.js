@@ -1,9 +1,11 @@
-const prompt = require('prompt');
-prompt.start();
+let  arr=[14, 17, 16, 3, 7, 19, 9];
+
+for( let i=0;i<arr.length;i++){
+    if ( arr[i]%2===0) { 
+    
+        arr.splice(i, 1); 
+    }
 
 
-prompt.get('input', function (err, result) {
-  
-    // Write code here
-  
-});
+}
+console.log(arr);
