@@ -10,7 +10,7 @@ prompt.get('input', function (err, result) {
     */
     var input = result.input; // "5,2 4 7 12 9"
     var input_data = input.split(','); // ['5', '2 4 7 12 9']
-//     var n = parseInt(input_data[0]); // Massivin element sayı. Nümunə - 5
+    var n = parseInt(input_data[0]); // Massivin element sayı. Nümunə - 5
     var massiv = input_data[1].split(' '); // Daxil edilmiş massiv. Nümunə - ['2', '4', '7', '12', '9']
 
     let  arr=[1, 2, 3, -4];
